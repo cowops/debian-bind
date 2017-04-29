@@ -23,13 +23,13 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: loranger.debian-bind }
+         - { role: cowops.debian-bind }
 
 Tasks
 -----
 
   - Install [bind9](http://www.bind9.net/)
-  
+
 
 License
 -------
