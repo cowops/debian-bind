@@ -1,7 +1,7 @@
 ---
 - name: install bind9
   apt:
-    name: {{ packages }}
+    name: "{{ packages }}"
     state: latest
   vars:
     packages:
